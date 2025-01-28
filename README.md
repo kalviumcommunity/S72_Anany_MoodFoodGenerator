@@ -94,10 +94,10 @@ GET http://localhost:5000/api/moods/happy
 
 ## 📌 Why This Project?
 This project combines humor with practicality and lets you:
-- Explore building a fun, user-friendly interface.
+- Explore building a fun, user-friendly interface
 - Gain hands-on experience with **React, Node.js, Express, and MongoDB**.
 - Work with **external APIs** like Spoonacular for recipe recommendations.
-- Develop an interactive, **engaging project** to showcase web development skills.
+- Develop an interactive, **engaging project** to showcase web development skills
 
 ---
 
