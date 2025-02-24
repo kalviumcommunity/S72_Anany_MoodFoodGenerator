@@ -1,0 +1,19 @@
+{
+  "name": "s72_anany_moodfoodgenerator",
+  "version": "1.0.0",
+  "description": "Mood Food Generator is an interactive web application designed to help users discover recipes that match their current mood. Whether you're feeling happy, sad, stressed, or just bored, this app will suggest a recipe that aligns with your emotional state. By combining humor and functionality, the app aims to make decision-making around meals easier and more enjoyable.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalviumcommunity/S72_Anany_MoodFoodGenerator.git"
+  },
+  "author": "Anany Koranne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalviumcommunity/S72_Anany_MoodFoodGenerator/issues"
+  },
+  "homepage": "https://github.com/kalviumcommunity/S72_Anany_MoodFoodGenerator#readme"
+}
