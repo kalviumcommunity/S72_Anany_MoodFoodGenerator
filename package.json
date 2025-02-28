@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kalviumcommunity/S72_Anany_MoodFoodGenerator/issues"
   },
-  "homepage": "https://github.com/kalviumcommunity/S72_Anany_MoodFoodGenerator#readme"
+  "homepage": "https://github.com/kalviumcommunity/S72_Anany_MoodFoodGenerator#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
