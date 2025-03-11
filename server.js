@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
-const foodRoutes = require("./routes/routes"); // Import your API routes
+const foodRoutes = require("./routes/routes"); // Import API routes
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -41,7 +41,7 @@ app.get("/ping", (req, res) => {
 // Use API routes
 app.use("/api", foodRoutes);
 
-// Start server
+// Start the server
 app.listen(port, () => {
     console.log(`🚀 Server running on http://localhost:${port}`);
 });
