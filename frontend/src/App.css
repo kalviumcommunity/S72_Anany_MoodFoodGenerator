@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  text-align: center;
+  width: 80%;
+}
+
+.hero {
+  text-align: center;
+  background-color: #ff7043;
+  padding: 50px;
+  border-radius: 10px;
+  font-weight: bold; /* Makes all text bold */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #000000; /* Change text color to black */
+  font-weight: bold; /* Ensures paragraph is also bold */
+}
+
+.get-started {
+  background: white;
+  color: black;
+  font-weight: bold; /* Makes button text bold */
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.get-started:hover {
+  background: black;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adds margin between boxes */
+  padding: 20px;
+}
+
+.card {
+  width: 200px;
+  height: 150px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.8;
+}
