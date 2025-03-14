@@ -102,6 +102,9 @@ This project combines humor with practicality and lets you:
 ---
 
 
-## Deployment Link
+## Backend Deployment Link
 https://s72-anany-moodfoodgenerator.onrender.com/
 
+
+## Frontend Deployment Link
+https://moodfoodgenerator1.pages.dev/
