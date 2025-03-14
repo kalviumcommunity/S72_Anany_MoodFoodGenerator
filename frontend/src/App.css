@@ -1,18 +1,18 @@
 body {
-  margin: 0;
-  padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #121212; /* Dark background */
+  background-color: #121212;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .app-container {
-  text-align: center;
   width: 80%;
+  max-width: 800px;
 }
 
 .hero {
@@ -20,7 +20,7 @@ body {
   background-color: #ff7043;
   padding: 50px;
   border-radius: 10px;
-  font-weight: bold; /* Makes all text bold */
+  font-weight: bold;
 }
 
 .hero h1 {
@@ -31,14 +31,13 @@ body {
 .hero p {
   font-size: 1.2rem;
   margin: 10px 0;
-  color: #000000; /* Change text color to black */
-  font-weight: bold; /* Ensures paragraph is also bold */
+  color: #000000;
 }
 
 .get-started {
   background: white;
   color: black;
-  font-weight: bold; /* Makes button text bold */
+  font-weight: bold;
   padding: 10px 20px;
   border: 2px solid black;
   border-radius: 5px;
@@ -51,24 +50,52 @@ body {
   color: white;
 }
 
+/* Cards Section */
 .content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Adds margin between boxes */
+  gap: 20px;
   padding: 20px;
 }
 
 .card {
-  width: 200px;
-  height: 150px;
   background: #1e1e1e;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  width: 250px;
+  text-align: center;
 }
 
-footer {
-  margin-top: 20px;
-  font-size: 14px;
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* Image Styling */
+.card-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 20px 0;
   text-align: center;
-  opacity: 0.8;
 }
